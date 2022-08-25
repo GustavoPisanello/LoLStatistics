@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtAhri"
+            android:layout_width="48dp"
+            android:layout_height="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/txtAhri"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+
+        <TextView
+            android:id="@+id/txtAnnie"
+            android:layout_width="48dp"
+            android:layout_height="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/txtAnnie"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnAphelios"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+
+        <TextView
+            android:id="@+id/txtAmumu"
+            android:layout_width="58dp"
+            android:layout_height="19dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/txtAmumu"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtAnivia"
+            android:layout_width="48dp"
+            android:layout_height="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/txtAnivia"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnAhri"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+
+        <TextView
+            android:id="@+id/txtAlistar"
+            android:layout_width="48dp"
+            android:layout_height="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/txtAlistar"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtAphelios"
+            android:layout_width="67dp"
+            android:layout_height="23dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/txtAphelios"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnAkali"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btnAatrox"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:hapticFeedbackEnabled="false"
+            android:text="Button" />
+
+        <TextView
+            android:id="@+id/txtAshe"
+            android:layout_width="48dp"
+            android:layout_height="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/txtAshe"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnAshe"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+
+        <TextView
+            android:id="@+id/txtAkali"
+            android:layout_width="48dp"
+            android:layout_height="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/txtAkali"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnAnivia"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btnAhri"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+
+        <TextView
+            android:id="@+id/txtAkshan"
+            android:layout_width="48dp"
+            android:layout_height="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/txtAkshan"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btnAkali"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btnAnnie"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btnAphelios"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btnAnnie"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btnAatrox"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="127dp"
+            android:layout_height="31dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/txtTitulo"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtAatrox"
+            android:layout_width="48dp"
+            android:layout_height="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/txtAatrox"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnAmumu"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btnAkshan"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btnAnivia"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btnAmumu"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btnAkshan"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btnAshe"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:text="Button" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2C2929"
+        android:backgroundTint="#1E1C1C"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="-124dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
